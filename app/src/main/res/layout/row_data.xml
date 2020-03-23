@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/form"
+        android:layout_width="190dp"
+        android:background="@color/gray"
+        android:layout_height="180dp"
+        android:layout_margin="20dp"
+        android:onClick="gotobrowser"
+        >
+
+        <TextView
+            android:id="@+id/cofi"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:background="@drawable/confisionbacl"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/modulename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:text="module name"
+            android:textColor="@color/noir"
+            android:textStyle="bold|italic"
+            android:textSize="25dp" >
+
+
+        </TextView>
+        <TextView
+            android:id="@+id/descmodule"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="122dp"
+            android:layout_centerHorizontal="true"
+            android:text="desc"
+            android:textStyle="normal|italic"
+            android:textColor="@color/noir"
+            android:textSize="18dp" />
+
+
+
+    </RelativeLayout>
+</RelativeLayout>

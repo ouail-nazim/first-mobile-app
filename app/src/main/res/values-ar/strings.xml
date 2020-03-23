@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">تسجيل الدخول</string>
+    <string name="emailent">الايمايل</string>
+    <string name="username">اسم المستخدم</string>
+    <string name="password">كللمة السر</string>
+    <string name="head">فل نتعلم</string>
+</resources>

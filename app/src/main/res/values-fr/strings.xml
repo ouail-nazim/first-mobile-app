@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">elearning </string>
+    <string name="emailent">mon email</string>
+    <string name="username">le nom de utilisateur</string>
+    <string name="password">mot de pass</string>
+    <string name="head"> elearning</string>
+
+</resources>
